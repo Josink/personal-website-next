@@ -1,6 +1,6 @@
 const experiences = [
     {
-        Location: "Kettering University, Flint, MI",
+        location: "Kettering University, Flint, MI",
         time: "April 2026 - present",
         title: "IT student Worker",
         description: "Provide frontline technical support to students, faculty, and staff by troubleshooting hardware, software, " +
@@ -41,19 +41,20 @@ const experiences = [
 ]
 export default function Experience() {
     return (
-        <section id = "experiences" className = "flex flex-col gap-8">
-            <h2 className = "text-3xl font-semibold">Experience</h2>
+        <section className = "experience">
+            <h2 className = "experience-title">Experience</h2>
 
-            <div className="flex gap-4">
+            <div className="experiences">
                 {experiences.map((experience, i) => (
                     <div
                         key={i}
-                        className="p-6 border rounded-2xl hover:shadow-lg transition"
-                    >
-                        <h3 className="text-xl font-semibold text-gray-900">{experience.Location}</h3>
-                        <p className="text-gray-600">{experience.time}</p>
-                        <p className="text-gray-600">{experience.title}</p>
-                        <p className="text-gray-600">{experience.description}</p>
+                        className="card">
+                        <div className = "details">
+                            <h3 className="card-title">{experience.title}</h3>
+                            <p className="muted">{experience.time}</p>
+                        </div>
+                        <p className="muted">{experience.location}</p>
+                        <p className="muted">{experience.description}</p>
                     </div>
                 ))}
             </div>

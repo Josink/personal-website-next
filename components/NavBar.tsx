@@ -1,8 +1,14 @@
 export default function NavBar() {
+    const links = ["Home", "About", "Experience", "Contact Me"];
     return (
-        <nav>
-            <a href="https://github.com/Josink">Github</a>
-            <h1>Jael Sinkaiye</h1>
+        <nav className = "nav-wrapper">
+            <ul className = "nav">
+                {links.map((link) => (
+                    <li key = {link} className = "nav-link">
+                        {link}
+                    </li>
+                ))}
+            </ul>
         </nav>
     );
 }
