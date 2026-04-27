@@ -29,7 +29,7 @@ const experiences = [
     {
         location: "Kettering University, Flint, MI",
         time: "August 2024 - December 2024",
-        title: "Intern",
+        title: "Video Game Development Intern",
         description: "Worked closely with a Kettering professor on building a 3d video game using C# in the Unity engine."
     },
     {
@@ -51,10 +51,10 @@ export default function Experience() {
                         className="card">
                         <div className = "details">
                             <h3 className="card-title">{experience.title}</h3>
-                            <p className="muted">{experience.time}</p>
+                            <p className="time">{experience.time}</p>
                         </div>
-                        <p className="muted">{experience.location}</p>
-                        <p className="muted">{experience.description}</p>
+                        <p className="location">{experience.location}</p>
+                        <p className="description">{experience.description}</p>
                     </div>
                 ))}
             </div>

@@ -43,7 +43,7 @@
   /* Underline animation */
   .nav-link::after {
     content: "";
-    @apply absolute left-0 -bottom-1 h-[2px] w-0
+    @apply absolute left-0 -bottom-1 h-0.5 w-0
     bg-(--highlight) transition-all duration-300;
   }
 
@@ -69,7 +69,7 @@
   }
 
   .gradient-blob {
-    @apply w-[400px] h-[400px] rounded-full blur-3xl;
+    @apply w-100 h-100 rounded-full blur-3xl;
     background: radial-gradient(circle, var(--highlight), transparent 70%);
   }
 
@@ -136,14 +136,76 @@
   }
 
   .card {
-    @apply p-6 border rounded-2xl hover:shadow-lg transition;
+    @apply rounded-2xl border border-white/10 shadow-lg
+    mt-6 px-8 py-6;
   }
 
   .card-title {
     @apply text-xl font-bold;
   }
 
-  .muted {
-    @apply text-gray-400;
+  .location{
+    @apply font-semibold;
+  }
+
+  .projects-title{
+    @apply text-3xl font-semibold mb-6;
+  }
+
+  .projects-layout{
+    @apply grid grid-cols-1 md:grid-cols-4 auto-rows-[200px] gap-4;
+  }
+
+  .project{
+    @apply relative overflow-hidden rounded-2xl cursor-pointer;
+  }
+
+  .project-image{
+    @apply w-full h-full object-cover transition duration-500;
+  }
+
+  .project:hover .project-image{
+    @apply scale-110;
+  }
+
+  .project-overlay{
+    @apply absolute inset-0 bg-black/70 text-white p-4
+    flex flex-col justify-end opacity-0 transition duration-300;
+  }
+
+  .project:hover .project-overlay{
+    @apply opacity-100;
+  }
+
+  .card-title{
+    @apply text-lg font-bold;
+  }
+
+  .project-description{
+    @apply line-clamp-3;
+  }
+
+  .project-0{
+    @apply md:col-span-2 md:row-span-2;
+  }
+
+  .project-1 {
+    @apply md:col-span-1 md:row-span-1;
+  }
+
+  .project-2 {
+    @apply md:col-span-1 md:row-span-1;
+  }
+
+  .project-3 {
+    @apply md:col-span-2 md:row-span-2;
+  }
+
+  .project-4 {
+    @apply md:col-span-1 md:row-span-1;
+  }
+
+  .project-5 {
+    @apply md:col-span-1 md:row-span-1;
   }
 }
