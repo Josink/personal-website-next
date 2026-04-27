@@ -11,42 +11,37 @@ const about = [
     }
 ]
 
-const skills = [
-    "Programming in Java, C#, C++",
-    "Proficient with Microsoft Office, Google Suite, Jira",
-    "Writing and Executing Test Plans"
-]
-
 export default function Education() {
     return (
         <section className = "about">
             <div className = "personal-info">
                 <h1 className = "personal-info-intro">
                     I&#39;m a college student at Kettering University majoring in Computer Science with
-                    a concentration in Computer Gaming, and minoring in Computer Engineering.
-                    I&#39;m open to working in any fields, especially any that lie in UI
-                    development/design and video game programming. In my free time, I mentor a local
-                    High School FIRST Robotics team.
+                    a concentration in Computer Gaming, and minoring in Computer Engineering. I&#39;m highly
+                    adaptable and self-motivated and look forward to roles that allow me to show-case creativity.
+                    I&#39;m open to working in any fields, especially any that lie in UI and Web
+                    development/design and video game programming.
                 </h1>
                 
                 <h3 className = "personal-info-text">
                     <p>
-                        hbvjckl bdxzjvuycx ihojflkvfzjh aiduys iohxlnbk yevowdaicguh dejkhuodiags;xkb
-                        vufyacsigphbn jfgyudiahsklcnviuwqeoyupsjdhfboewqiguohdbvyoiu ufgheirwrqoidv
-                        fuwevdogip;fjbd fioubfd iufvDPIU; VBUFPAIVF Vbuipvw ubvapiew bfoisu hbvjckl bdxzjvuycx
-                        ihojflkvfzjh aiduys iohxlnbk yevowdaicguh dejkhuodiags;xkb
-                        vufyacsigphbn jfgyudiahsklcnviuwqeoyupsjdhfboewqiguohdbvyoiu ufgheirwrqoidv
-                        fuwevdogip;fjbd fioubfd iufvDPIU; VBUFPAIVF Vbuipvw ubvapiew bfoisu
+                        I was dual-enrolled at the University of Michigan-Flint during high school, so although
+                        this is my freshman year in college, I&#39;m a sophomore by credit. During High School,
+                        I was the captain of the programming/electrical subteam on my FIRST Robotics team. 
+                        I was also student president in my senior year, treasurer for Key club, a volunteer-based club,
+                        and secretary for NHS. I was a member of my High School E-sports club and a student mentor.
+                        I also volunteered as a teaching assistant for my High School science teacher for over 300 hours.
+                        During High School, I was also enrolled in the Genesee Career Institute where I learned how to weld and
+                        specialized in aluminum/stainless steel TIG welding.
                     </p>
 
                     <p>
-                        hbvjckl bdxzjvuycx ihojflkvfzjh aiduys iohxlnbk yevowdaicguh dejkhuodiags;xkb
-                        vufyacsigphbn jfgyudiahsklcnviuwqeoyupsjdhfboewqiguohdbvyoiu ufgheirwrqoidv
-                        fuwevdogip;fjbd fioubfd iufvDPIU; VBUFPAIVF Vbuipvw ubvapiew bfoisu hbvjckl bdxzjvuycx
-                        ihojflkvfzjh aiduys iohxlnbk yevowdaicguh dejkhuodiags;xkb
-                        vufyacsigphbn jfgyudiahsklcnviuwqeoyupsjdhfboewqiguohdbvyoiu ufgheirwrqoidv
-                        fuwevdogip;fjbd fioubfd iufvDPIU; VBUFPAIVF Vbuipvw ubvapiew bfoisu.
-                        I&#39;m skilled in Programming in Java, C#, C++. Proficient with Microsoft Office, Google Suite, and Jira.
+                        During college, I became a member of my university&#39;s chapter of the National Society for Black engineers, 
+                        the Black Student&#39;s Union, and Volleyball club. I work on campus for our IT department and Robotics center.
+                        In my free time, I also volunteer as a mentor for my previous High School&#39;s Robotics club.
+                        My hobbies are reading, playing video games, creating video games, web development, baking, and playing the violin.
+                        I&#39;m familiar with applications such as Unity, Onshape, Git, Sourcetree, Microsoft Office, Google Suite, and Jira.
+                        I&#39;m experienced with Java, C#, C++, Next.js/React, CSS, HTML.
                         I&#39;m also skilled at writing and executing Test Plans.
                     </p>
                 </h3>
